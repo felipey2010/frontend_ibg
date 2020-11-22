@@ -2,7 +2,6 @@ import React from "react";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./pages/Home";
 import Page404 from "./pages/Page404";
 
 export default function App() {
