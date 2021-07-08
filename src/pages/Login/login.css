@@ -3,12 +3,38 @@ body {
   padding: 0;
   font-family: sans-serif;
   /* background: url(./images/bg.jpg) no-repeat; */
-  background-color: #161617;
   background-size: cover;
 }
 
+.container {
+  background-color: #161617;
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar img {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45%;
+  width: 45%;
+}
+
 .login-box {
-  width: 35%;
+  width: 20%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,13 +71,18 @@ body {
   background: none;
   color: white;
   font-size: 18px;
-  width: 75%;
+  width: 50%;
   margin: 0 10px;
 }
 .passwordVisibility {
   width: 20px;
   float: right;
   text-align: center;
+  color: #4caf50;
+}
+
+.passwordVisibility:hover {
+  color: #00ff37;
 }
 
 .btn {
@@ -81,10 +112,13 @@ body {
   margin: 14px 0 0 0;
   text-align: right;
   color: #fff;
+  font-size: 14px;
 }
 
 .btnAcessar p a {
   color: yellow;
+  font-size: 14px;
+  text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.5px;
   margin-left: 5px;
@@ -94,6 +128,33 @@ body {
 
 .btnAcessar p a:hover {
   color: #00ff37;
+}
+
+.btnSenha p {
+  margin: 14px 0 0 0;
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+}
+
+.btnSenha p a {
+  color: yellow;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.btnSenha p a:hover {
+  color: #00ff37;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 790px) {

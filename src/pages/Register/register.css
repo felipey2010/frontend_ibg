@@ -7,6 +7,32 @@ body {
   background-size: cover;
 }
 
+.container {
+  background-color: #161617;
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar img {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45%;
+  width: 45%;
+}
+
 .login-box {
   width: 35%;
   position: absolute;
@@ -52,6 +78,11 @@ body {
   width: 20px;
   float: right;
   text-align: center;
+  color: #4caf50;
+}
+
+.passwordVisibility:hover {
+  color: #00ff37;
 }
 
 .btn {
@@ -86,6 +117,7 @@ body {
 .btnAcessar p a {
   color: yellow;
   font-weight: 500;
+  text-decoration: none;
   letter-spacing: 0.5px;
   margin-left: 5px;
   cursor: pointer;
