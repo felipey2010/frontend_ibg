@@ -12,9 +12,9 @@ import {
 import Title from "./Title";
 
 // Generate Sales Data
-function createData(time, amount) {
-  return { time, amount };
-}
+// function createData(time, amount) {
+//   return { time, amount };
+// }
 
 const members = [
   { name: "Crianças (0-8)", número: 20 },
@@ -23,17 +23,17 @@ const members = [
   { name: "Adultos (acima de 30)", número: 28 },
 ];
 
-const data = [
-  createData("00:00", 0),
-  createData("03:00", 300),
-  createData("06:00", 600),
-  createData("09:00", 800),
-  createData("12:00", 1500),
-  createData("15:00", 2000),
-  createData("18:00", 2400),
-  createData("21:00", 2400),
-  createData("24:00", undefined),
-];
+// const data = [
+//   createData("00:00", 0),
+//   createData("03:00", 300),
+//   createData("06:00", 600),
+//   createData("09:00", 800),
+//   createData("12:00", 1500),
+//   createData("15:00", 2000),
+//   createData("18:00", 2400),
+//   createData("21:00", 2400),
+//   createData("24:00", undefined),
+// ];
 
 export default function Chart() {
   const theme = useTheme();

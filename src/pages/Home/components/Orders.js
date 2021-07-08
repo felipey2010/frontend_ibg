@@ -56,9 +56,9 @@ const rows = [
   ),
 ];
 
-function preventDefault(event) {
-  event.preventDefault();
-}
+// function preventDefault(event) {
+//   event.preventDefault();
+// }
 
 const useStyles = makeStyles(theme => ({
   seeMore: {

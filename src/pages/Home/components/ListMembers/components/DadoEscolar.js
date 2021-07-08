@@ -80,7 +80,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function DadoEscolar({ values, setValues }) {
   const classes = useStyles();
-  const theme = useTheme();
+  // const theme = useTheme();
 
   function handleChange(evt) {
     // console.log("new value", evt.target.value);

@@ -82,7 +82,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function DadosPessoais({ values, setValues, getFormattedDate }) {
   const classes = useStyles();
-  const theme = useTheme();
+  // const theme = useTheme();
 
   const handleDateChange = event => {
     let data = getFormattedDate(event.target.value);

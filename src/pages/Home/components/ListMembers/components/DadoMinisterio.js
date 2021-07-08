@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Grid from "@material-ui/core/Grid";
 import TextField from "@material-ui/core/TextField";
 import FormControl from "@material-ui/core/FormControl";
@@ -84,7 +84,7 @@ export default function DadoMinisterio({
   getFormattedDate,
 }) {
   const classes = useStyles();
-  const theme = useTheme();
+  // const theme = useTheme();
 
   function handleChange(evt) {
     setValues({

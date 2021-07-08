@@ -205,7 +205,7 @@ export default function Home() {
     setTitle(title);
   };
 
-  const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
+  // const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
 
   if (user) {
     closeSnackbar();

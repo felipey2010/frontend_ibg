@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import Divider from "@material-ui/core/Divider";
@@ -6,7 +6,6 @@ import IconButton from "@material-ui/core/IconButton";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import TextField from "@material-ui/core/TextField";
-import axios from "axios";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Switch from "@material-ui/core/Switch";
 import Button from "@material-ui/core/Button";
@@ -14,6 +13,7 @@ import Typography from "@material-ui/core/Typography";
 import Select from "@material-ui/core/Select";
 import FormControl from "@material-ui/core/FormControl";
 import MenuItem from "@material-ui/core/MenuItem";
+// import axios from "axios";
 
 const drawerWidth = 250;
 
